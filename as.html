@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Medical Advisor</title>
+    <link rel="stylesheet" type="text/css" href="../static/arstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video autoplay loop muted playsinline class="background-video">
+        <source src="../static/background.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="background-image"></div>
+    <div class="container animate-container">
+        <h1 class="animate-heading">🤖 AI-Powered Medical Advisor</h1>
+        <form method="POST" class="form-box animate-form">
+            <label for="symptoms">Enter Symptoms (comma-separated):</label> <br>
+           <br> <input type="text" id="symptoms" name="symptoms" placeholder="e.g., fever, cough" required> <br>
+            <button type="submit" class="animate-button">🔍 Predict</button>
+        </form>
+        {% if prediction %}
+            <div class="result-box animate-result">
+                <h2>🧠 Predicted Disease: {{ prediction }}</h2>
+                <p><strong>Suggested Solution:</strong> {{ solution }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
