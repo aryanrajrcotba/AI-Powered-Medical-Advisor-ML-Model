@@ -62,3 +62,8 @@ This project is licensed under the MIT License.
 ---
 Developed by Aryan Raj
 
+![Screenshot 2025-02-06 213504](https://github.com/user-attachments/assets/6e089947-db30-4c30-8692-8e633b4c4cd5)
+
+![Screenshot 2025-02-06 213641](https://github.com/user-attachments/assets/4008ed03-68bb-42bb-baaa-3f3edc8f0f66)
+
+
